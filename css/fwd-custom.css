@@ -1,0 +1,12 @@
+body {
+	background: rgb(240,220,247);
+	background: -moz-linear-gradient(292deg, rgba(240,220,247,1) 0%, rgba(157,134,179,1) 63%);
+	background: -webkit-linear-gradient(292deg, rgba(240,220,247,1) 0%, rgba(157,134,179,1) 63%);
+	background: linear-gradient(292deg, rgba(240,220,247,1) 0%, rgba(157,134,179,1) 63%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0dcf7",endColorstr="#9d86b3",GradientType=1);
+}
+
+#fontPage {
+	width: 100%;
+	height: 100vh;
+}
