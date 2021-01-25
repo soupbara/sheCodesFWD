@@ -1,12 +1,63 @@
 body {
-	background: rgb(240,220,247);
-	background: -moz-linear-gradient(292deg, rgba(240,220,247,1) 0%, rgba(157,134,179,1) 63%);
-	background: -webkit-linear-gradient(292deg, rgba(240,220,247,1) 0%, rgba(157,134,179,1) 63%);
-	background: linear-gradient(292deg, rgba(240,220,247,1) 0%, rgba(157,134,179,1) 63%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0dcf7",endColorstr="#9d86b3",GradientType=1);
+	background: rgb(226,187,240);
+	background: -moz-linear-gradient(292deg, rgba(226,187,240,1) 0%, rgba(157,134,179,1) 63%);
+	background: -webkit-linear-gradient(292deg, rgba(226,187,240,1) 0%, rgba(157,134,179,1) 63%);
+	background: linear-gradient(292deg, rgba(226,187,240,1) 0%, rgba(157,134,179,1) 63%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2bbf0",endColorstr="#9d86b3",GradientType=1);
 }
 
 #fontPage {
 	width: 100%;
 	height: 100vh;
+	font: 1em 'Nanum Gothic', sans-serif;
+}
+
+#titleCard {
+	text-align: center;
+	font: 5em 'Oswald', sans-serif;
+	color: #ffffff;
+	line-height: 1em;
+}
+
+#titleCard button {
+	background: #ffffff;
+	font: 0.4em 'Nanum Gothic', sans-serif;
+	text-transform: uppercase;
+	border: none;
+	border-bottom: 3px solid grey;
+	padding: 0px 50px;
+	letter-spacing: 5px;
+}
+
+	#titleCard button:hover {
+		background: grey;
+	}
+
+#sheCodes {
+	background: #ffffff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 30px;
+	padding: 0px 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	border-bottom: 3px solid grey;
+	font-weight: 600;
+	word-spacing: 1em;
+}
+
+.horizontalLine {
+	background: #ffffff;
+	width: 90%;
+	height: 1px;
+	position: relative;
+	top: 0; left: 0;
+	margin: 40px 5% 0px 30px;
+}
+
+#container {
+	background: #ffffff;
+	width: 100%;
+	min-height: 100vh;
 }
