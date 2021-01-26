@@ -24,6 +24,23 @@ a {
         transition: all 0.2s ease-in-out;
 }
 
+button {
+	background: #ffffff;
+	border: none;
+	border-bottom: 3px solid #77657d;
+	color: #8c76a3;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+	
+	button:hover {
+		background: #77657d;
+		border-bottom: 3px solid #ffffff;
+		color: #ffffff;
+	}
+
 h1, h2, h3 {
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -42,18 +59,10 @@ h1, h2, h3 {
 }
 
 #titleCard button {
-	background: #ffffff;
 	font: 0.4em 'Nanum Gothic', sans-serif;
 	text-transform: uppercase;
-	border: none;
-	border-bottom: 3px solid #77657d;
 	padding: 0px 50px;
 	letter-spacing: 5px;
-	color: #8c76a3;
-	-webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
 }
 	#titleCard button:hover {
 		background: #77657d;
@@ -164,7 +173,7 @@ h1, h2, h3 {
 .sectionTitle {
 	width: 100%;
 	text-transform: uppercase;
-	font: 5em 'Oswald', sans-serif;
+	font: 4.75em 'Oswald', sans-serif;
 	text-align: center;
 	overflow-wrap: break-word;
 }
@@ -206,8 +215,9 @@ h1, h2, h3 {
 .sponsor {
 	backgroud: #9d86b3;
 	background-image: linear-gradient(45deg, #9d86b3, #95a3d0);
+	margin-bottom: 30px;
 	border-radius: 100%;
-	padding: 20px;
+	padding: 15px;
 	box-sizing: border-box;
 }
 
@@ -215,3 +225,31 @@ h1, h2, h3 {
 		width: 100%;
 		border-radius: 100%;
 	}
+	
+footer {
+	padding: 50px;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+	footer a {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+
+#contact {
+	display: flex;
+	justify-content: center;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	float: left;
+	border-radius: 100%;
+	font-size: 20pt;
+	padding: 5px;
+}
